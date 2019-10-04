@@ -53,12 +53,12 @@ while steps < 50:
             y2 = v_turtle.ycor()
 
             if abs(x1 - x2) < 20 and abs(y1 - y2) < 20:
-                h_turtle.fillcolor("grey")
+                h_turtle.fillcolor("grey")               
                 v_turtle.fillcolor("grey")
 
 
                 horiz_turtles.remove(h_turtle)
-                vert_turtles.remove(c_turtle)
+                vert_turtles.remove(v_turtle)
 
 wn = trtl.Screen()
 wn.mainloop()
